@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <link rel="icon" href="Final Logo.jpg" type="image/jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./activities.css">
+    <script src="./activities.js"></script>
+</head>
+
+
+<body>
+    <!-- Preloader Effect
+    <center>
+        <div id="preloader-container" class="breathe mt-52 md:mt-32">
+            <div id="preloader">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="400" height="400" class="breathe">
+                    <g class="ldl-scale" style="transform-origin:50% 50%;transform:rotate(0deg) scale(0.4, 0.4);">
+                        <ellipse stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"
+                            stroke="#333" fill="#666" ry="6.4" rx="29.7" cy="85" cx="50"
+                            style="stroke:rgb(189, 155, 119);fill:rgb(247, 201, 149);">
+                        </ellipse>
+                        <g>
+                            <path stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"
+                                stroke="#333" fill="#e0e0e0"
+                                d="M61.9 30.1h0c0-3.3 2.6-5.9 5.9-5.9h0c2.1 0 3.8-1.7 3.8-3.8v-1.6c0-2.1-1.7-3.8-3.8-3.8H32.2c-2.1 0-3.8 1.7-3.8 3.8v1.6c0 2.1 1.7 3.8 3.8 3.8h0c3.3 0 5.9 2.6 5.9 5.9v0c0 1.8-.8 3.5-2.2 4.6-7.3 5.9-12.1 16.1-12.1 27.8C23.8 80.7 31.9 85 50 85c17.9 0 26.2-4.3 26.2-22.5 0-11.7-4.8-21.9-12.1-27.8-1.4-1.1-2.2-2.8-2.2-4.6z"
+                                style="stroke:rgb(189, 155, 119);fill:rgb(176, 182, 189);"></path>
+                            <path stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"
+                                stroke="#fff" fill="#e0e0e0" d="M30.9 53c-.2.7-.4 1.4-.5 2.1"
+                                style="stroke:rgb(241, 242, 243);fill:rgb(176, 182, 189);"></path>
+                            <path stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"
+                                stroke="#fff" fill="#e0e0e0" d="M39.9 38.9c-2.7 2.1-4.9 4.9-6.7 8.2"
+                                style="stroke:rgb(241, 242, 243);fill:rgb(176, 182, 189);"></path>
+                            <path stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"
+                                stroke="#000" opacity=".1"
+                                d="M64.1 34.7c-1.4-1.1-2.2-2.8-2.2-4.6 0-3.3 2.6-5.9 5.9-5.9 2.1 0 3.8-1.7 3.8-3.8v-1.6c0-2.1-1.7-3.8-3.8-3.8h-9.7c1.8 0 3.2 1.7 3.2 3.8v1.6c0 2.1-1.4 3.8-3.2 3.8-2.7 0-4.9 2.6-4.9 5.9 0 1.8.7 3.5 1.8 4.6 6.1 5.9 10.1 16.1 10.1 27.8 0 16.9-6 21.8-18.8 22.4 1.2 0 2.4.1 3.7.1 17.9 0 26.2-4.3 26.2-22.5 0-11.7-4.8-21.9-12.1-27.8z"
+                                style="stroke:rgb(139, 125, 107);fill:rgb(139, 125, 107);"></path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </center> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- <span id="content" class="hidden"> -->
+    <span>
+        <!-- Header -->
+        <header>
+            <div class="nav-section" id="header">
+                <a class="logo-img" href="./index.html">
+                    <img class="bar-logo" src="logo.png" alt="homepage">
+                </a>
+                <div class="gap-text" style="padding-left: 360px; height: 130px;" id="spacebetween"></div>
+                <nav>
+                    <div class="nav-tags">
+                        <ul>
+                            <li class="nav-item" style="margin-top: 15px;"><a href="index.html"> Home </a></li>
+                            <li class="nav-item" style="margin-top: 15px;"><a href="learnpage.html"> Learn </a></li>
+                            <li class="nav-item" style="margin-top: 15px;"><a href="design.html"> Design </a></li>
+                            <li class="nav-item" style="margin-top: 15px;"><a href="activities.html"> Activities </a>
+                            </li>
+                            <li class="nav-item" style="margin-top: 15px;"><a href="aboutus.html"> About </a></li>
+                        </ul>
+                        <!-- <div class="nav-item vl"> </div>
+                    <a href="#" id="socials" class="fa fa-facebook"></a>
+                    <a href="#" id="socials" class="fa fa-instagram"></a>
+                    <a href="#" id="socials"class="fa fa-whatsapp"></a> -->
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container w-full shadow-md">
+            <!-- Hero Section -->
+            <div class="hero-section overflow-hidden shadow-lg relative w-full md:h-screen text-white mt-36 md:mt-20">
+                <img src="pottery1.gif" class="w-screen md:h-screen" alt="Animated GIF" loop>
+                <div class="absolute top-0 left-0 w-screen h-screen bg-black opacity-40"></div>
+                <div
+                    class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+
+                    <div class="hero-content">
+                        <h2 class="text-2xl md:text-6xl font-semibold md:mb-4 leading-tight">Activities at Mudberry Studio</h2>
+                        <h2 class="text-2xl md:text-6xl font-semibold md:mb-4 leading-tight">Activities at Mudberry Studio</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Workshop Highlights Section -->
+            <section id="workshop-highlights">
+                <div class="container mx-auto text-center">
+                    <h1 class="bg-[#372521] text-3xl md:text-4xl text-center font-bold text-white relative bg-cover bg-center py-6 bg-opacity-90"
+                        data-aos="zoom-in">
+                        Course Highlights
+                    </h1>
+                    <!-- Workshop Highlights Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-6 py-16">
+                        <!-- Highlight 1 -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg p-6 " data-aos="fade-up"
+                            data-aos-delay="100">
+                            <div class="flex items-center justify-center mb-4">
+                                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Technique Mastery</h3>
+                            <p class="text-gray-700">Learn and perfect advanced pottery techniques guided by experienced
+                                instructor.</p>
+                        </div>
+                        <!-- Highlight 2 -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg p-6" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="flex items-center justify-center mb-4">
+                                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Unique Themes</h3>
+                            <p class="text-gray-700">Explore workshops with exciting themes, adding a creative touch to
+                                your
+                                pottery.</p>
+                        </div>
+                        <!-- Highlight 3 -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg p-6" data-aos="fade-up"
+                            data-aos-delay="300">
+                            <div class="flex items-center justify-center mb-4">
+                                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Hands-On Experience</h3>
+                            <p class="text-gray-700">Gain hands-on experience with personalized guidance, ensuring a
+                                rich
+                                learning experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div>
+                <h1 class="bg-[#372521] text-3xl md:text-4xl text-center font-bold text-white relative bg-cover bg-center py-6 bg-opacity-90"
+                    data-aos="fade-up">
+                    Crafting Dreams: Pottery Classes & Workshops Showcase
+                </h1>
+                <!-- Photo Show Slide Show -->
+                <div class="photoshow-slideshow lg:h-screen relative overflow-hidden" data-aos="zoom-in">
+                    <div class="flex items-center justify-center w-full lg:h-screen">
+                        <div class="photoshow-slides w-screen flex transition-transform duration-500 ease-in-out">
+                            <div class="photoshow-slide">
+                                <img src="IMG_4889.jpg" alt="Pottery 1">
+                            </div>
+                            <div class="photoshow-slide">
+                                <img src="IMG_4841.jpg" alt="Pottery 2">
+                            </div>
+                            <div class="photoshow-slide">
+                                <img src="IMG_4831.jpg" alt="Pottery 3">
+                            </div>
+                            <div class="photoshow-slide">
+                                <img src="IMG_5015.jpg" alt="Pottery 3">
+                            </div>
+                            <div class="photoshow-slide">
+                                <img src="IMG_4771.jpg" alt="Pottery 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="photoshow-controls absolute top-1/2 w-full flex justify-between transform -translate-y-1/2">
+                        <div class="photoshow-control-left cursor-pointer p-4 bg-white bg-opacity-70 rounded-full"
+                            onclick="prevSlide()">
+                            &#10094;
+                        </div>
+                        <div class="photoshow-control-right cursor-pointer p-4 bg-white bg-opacity-70 rounded-full"
+                            onclick="nextSlide()">
+                            &#10095;
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Courses Details -->
+            <h1 class="bg-[#372521] text-3xl md:text-4xl text-center font-bold text-white relative bg-cover bg-center py-6 bg-opacity-90 px-4 py-2"
+                data-aos="zoom-in" id="detcourse">
+                Courses We Offer
+            </h1>
+            <div class="container my-6 mx-auto p-4 flex flex-wrap justify-between">
+                <!-- Product Section 1 -->
+                <div class="w-full md:w-1/2 p-4" data-aos="zoom-in">
+                    <div
+                        class="relative overflow-hidden bg-white rounded-lg shadow-md transition-transform transform-gpu hover:scale-105">
+                        <!-- Product Photo -->
+                        <img src="IMG_4873.jpg" alt="Product 1" class="w-full h-60 object-cover">
+                        <!-- Product Description -->
+                        <div class="p-4">
+                            <h2 class="text-2xl font-bold mb-2">Pottery Introduction Course</h2>
+                            <div class="mb-2">
+                                <div onclick="toggleDescription(1)"
+                                    class="flex items-center justify-between border-b-2 hover:cursor-pointer">
+                                    <h3 class="text-lg font-semibold pb-1">Course Description</h3>
+                                    <button class=" hover:underline">
+                                        <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 20 20">
+                                            <path
+                                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div id="description1" class="hidden mt-2 ">
+                                    Explore the world of pottery through our "Hand Building Techniques for Pottery"
+                                    course,
+                                    designed for creative minds. Delve into hand building, crafting diverse objects with
+                                    clay using basic tools. Perfect for students, sculptors, homemakers, and anyone
+                                    seeking
+                                    a fun artistic experience. Additional lectures on animal sculpture and mask-making
+                                    enhance artistic skills.
+                                </div>
+                            </div>
+                            <div>
+                                <div onclick="toggleDuration(1)"
+                                    class="flex items-center justify-between border-b-2 hover:cursor-pointer">
+                                    <h3 class="text-lg font-semibold pb-1">Duration & Pricing</h3>
+                                    <button class=" hover:underline">
+                                        <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 20 20">
+                                            <path
+                                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div id="duration1" class="hidden mt-2 ">
+                                    Embark on a one-month journey with our Pottery and Ceramic Introduction Course.
+                                    Covering
+                                    both pottery wheel and hand-building techniques in 12 sessions, including six
+                                    dedicated
+                                    to hand building and six to wheel throwing. Three sessions per week, each lasting an
+                                    hour, result in a minimum of five crafted pieces. Priced at ₹8000, this course
+                                    accommodates all skill levels, providing materials and tools. After six months of
+                                    practice, advance to flexible, in-depth advanced courses tailored to individual.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Section 2 -->
+                <div class="w-full md:w-1/2 p-4" data-aos="zoom-in">
+                    <div
+                        class="relative overflow-hidden bg-white rounded-lg shadow-md transition-transform transform-gpu hover:scale-105">
+                        <!-- Product Photo -->
+                        <img src="IMG_4977.jpg" alt="Product 2" class="w-full h-60 object-cover">
+                        <!-- Product Description -->
+                        <div class="p-4">
+                            <h2 class="text-2xl font-bold mb-2">Private Pottery Session</h2>
+                            <div class="mb-2">
+                                <div onclick="toggleDescription(2)"
+                                    class="flex items-center justify-between border-b-2 hover:cursor-pointer">
+                                    <h3 class="text-lg font-semibold pb-1">Course Description</h3>
+                                    <button class=" hover:underline">
+                                        <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 20 20">
+                                            <path
+                                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div id="description2" class="hidden mt-2">
+                                    Immerse in the Artistry: Experience the magic of pottery through our exclusive
+                                    private
+                                    sessions. Engage in one-hour clay sessions, where creativity knows no bounds. Craft
+                                    unique masterpieces with personalized guidance on hand-built techniques, pinching,
+                                    and
+                                    personalization. All tools and materials provided for a hassle-free, memorable
+                                    experience.
+                                </div>
+                            </div>
+                            <div>
+                                <div onclick="toggleDuration(2)"
+                                    class="flex items-center justify-between border-b-2 hover:cursor-pointer">
+                                    <h3 class="text-lg font-semibold pb-1">Duration & Pricing</h3>
+                                    <button class=" hover:underline">
+                                        <svg class="ww-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 20 20">
+                                            <path
+                                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div id="duration2" class="hidden mt-2">
+                                    Your Pottery Journey Awaits: Explore our private sessions, tailored for
+                                    individualized
+                                    experiences. For ₹1000 per person, embark on an hour of artistic expression. Group
+                                    discounts available at ₹900 each for 4 participants and ₹800 each for groups of 9 or
+                                    more, fostering shared joy. Flexible scheduling throughout the week, with exclusive
+                                    time
+                                    slots and convenient hours. Secure your preferred time with a ₹1000 confirmation
+                                    charge.
+                                    Join us for an enriching hour, bringing your artistic vision to life.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                            
+            <!-- Flash Card Design -->
+            <h1 class="bg-[#372521] text-3xl md:text-4xl text-center font-bold text-white relative bg-cover bg-center py-6 bg-opacity-90 px-4 py-2"
+                data-aos="zoom-in">
+                Crafted Brilliance: Pottery Mastery Unveiled
+            </h1>
+            <div class="excontainer">
+                <div class="card__container">
+                   <article class="card__article" data-aos="zoom-in">
+                      <img src="co1.jpeg" alt="image" class="card__img">
+       
+                      <div class="card__data">
+                         <span class="card__description">Advanced Pottery Classes</span>
+                         <h2 class="card__title">Teracotta Tales</h2>
+                      </div>
+                   </article>
+                   <article class="card__article" data-aos="zoom-in">
+                      <img src="co2.jpeg" alt="image" class="card__img">
+                      <div class="card__data">
+                         <span class="card__description">Basic Pottery Classes</span>
+                         <h2 class="card__title">Clay-mation of Love</h2>
+                      </div>
+                   </article>
+                   <article class="card__article" data-aos="zoom-in">
+                      <img src="co3.jpeg" alt="image" class="card__img">
+       
+                      <div class="card__data">
+                         <span class="card__description">Private Pottery Classes</span>
+                         <h2 class="card__title">Nature in Ceramics</h2>
+                      </div>
+                   </article>
+                </div>
+             </div>
+
+            <!-- Testimonials -->
+            <div class="container flex flex-col md:flex-row md:shadow-2xl overflow-hidden mb-16 "
+                x-data="{ testimonialActive: 2 }" x-cloak>
+                <div class="relative w-full py-2 md:py-1 bg-cover bg-center bg-opacity-90 md:w-1/2 flex flex-col item-center justify-center"
+                    style="background-image: url('IMG_4981.jpg'); background-attachment: fixed;">
+
+                    <div class="absolute top-0 left-0 z-10 grid-indigo w-16 h-16 md:w-40 md:h-40 md:ml-20 md:mt-24">
+                    </div>
+                    <div
+                        class="relative text-2xl md:text-7xl py-2 px-1 md:py-1 md:px-1 md:w-64 md:mx-36  font-bold leading-tight tracking-tight mb-0 z-20">
+                        <span class="md:block">What Our</span>
+                        <span class="md:block">Customers</span>
+                        <span class="md:block">Are Saying!</span>
+                    </div>
+                    <div class="absolute right-0 bottom-0 mr-4 mb-4 hidden md:block">
+                        <button
+                            class="rounded-l-full border-r bg-gray-100  focus:outline-none hover:text-indigo-500 font-bold w-12 h-10"
+                            x-on:click="testimonialActive = testimonialActive === 1 ? 3 : testimonialActive - 1">
+                            &#8592;
+                        </button><button
+                            class="rounded-r-full bg-gray-100  focus:outline-none hover:text-indigo-500 font-bold w-12 h-10"
+                            x-on:click="testimonialActive = testimonialActive >= 3 ? 1 : testimonialActive + 1">
+                            &#8594;
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-gray-100 md:w-1/2">
+                    <div class="flex flex-col h-full relative">
+
+                        <div class="absolute top-0 left-0 mt-3 ml-4 md:mt-5 md:ml-12">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="text-stone-300 fill-current w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24">
+                                <path
+                                    d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L9.758 4.03c0 0-.218.052-.597.144C8.97 4.222 8.737 4.278 8.472 4.345c-.271.05-.56.187-.882.312C7.272 4.799 6.904 4.895 6.562 5.123c-.344.218-.741.4-1.091.692C5.132 6.116 4.723 6.377 4.421 6.76c-.33.358-.656.734-.909 1.162C3.219 8.33 3.02 8.778 2.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C2.535 17.474 4.338 19 6.5 19c2.485 0 4.5-2.015 4.5-4.5S8.985 10 6.5 10zM17.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L20.758 4.03c0 0-.218.052-.597.144-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162C14.219 8.33 14.02 8.778 13.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C13.535 17.474 15.338 19 17.5 19c2.485 0 4.5-2.015 4.5-4.5S19.985 10 17.5 10z" />
+                            </svg>
+                        </div>
+                        <div class="h-full relative z-10">
+                            <div x-show.immediate="testimonialActive === 1">
+                                <p class=" serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
+                                    x-show.transition="testimonialActive == 1">
+                                    Superb place, with extremely dedicated and passionate folks running the show.
+                                    Come here to learn pottery, or if you want to buy certain pieces for
+                                    yourself.<br><br><br>
+                                </p>
+                            </div>
+                            <div x-show.immediate="testimonialActive === 2">
+                                <p class="serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
+                                    x-show.transition="testimonialActive == 2">
+                                    Highly recommend it to everyone who
+                                    is looking for d same… ppl out dere r so so supportive nd cooperative… nd d staff is
+                                    also super cool… loved d whole vibe nd dey turned my bday a really special day for
+                                    me in
+                                    every possible way out….
+                                    thanks@ MUDBERRY STUDIO for such a great experience❤️
+                                </p>
+                            </div>
+                            <div x-show.immediate="testimonialActive === 3">
+                                <p class="serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
+                                    x-show.transition="testimonialActive == 3">
+                                    Best place for pottery in town…
+                                    Loved d pleasing vibe❤️ <br><br><br><br><br><br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex my-2 justify-center items-center">
+                            <button @click.prevent="testimonialActive = 1"
+                                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline inline-block rounded-full mx-2"
+                                :class="{'h-12 w-12 opacity-25 bg-[#372521] text-white': testimonialActive != 1, 'h-16 w-16 opacity-100 bg-[#372521] text-white': testimonialActive == 1 }">HD</button>
+                            <button @click.prevent="testimonialActive = 2"
+                                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-[#372521]-600 rounded-full mx-2"
+                                :class="{'h-12 w-12 opacity-25 bg-[#372521] text-white': testimonialActive != 2, 'h-16 w-16 opacity-100 bg-[#372521] text-white': testimonialActive == 2 }">VJ</button>
+                            <button @click.prevent="testimonialActive = 3"
+                                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-12 w-12 inline-block bg-[#372521] rounded-full mx-2"
+                                :class="{'h-12 w-12 opacity-25 bg-[#372521] text-white': testimonialActive != 3, 'h-16 w-16 opacity-100 bg-[#372521] text-white': testimonialActive == 3 }">CJ</button>
+                        </div>
+                        <div class="flex justify-center px-6 pt-2 pb-6 md:py-6">
+                            <div class="text-center" x-show="testimonialActive == 1">
+                                <h2 class="text-sm md:text-base font-bold  leading-tight">Harshit Didwania</h2>
+                                <small class="text-xs md:text-sm truncate">Local Guide</small>
+                            </div>
+
+                            <div class="text-center" x-show="testimonialActive == 2">
+                                <h2 class="text-sm md:text-base font-bold  leading-tight">Parents of Veronica Jain</h2>
+                            </div>
+
+                            <div class="text-center" x-show="testimonialActive == 3">
+                                <h2 class="text-sm md:text-base font-bold  leading-tight">Chandini Jain</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="c2">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="aboutus.html">about us</a></li>
+                            <li><a href="design.html">our design</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="design.html#faq">FAQ</a></li>
+                            <li><a href="aboutus.html#bs">Book a session</a></li>
+                            <li><a href="aboutus.html#bs">Place an Order</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Courses</h4>
+                        <ul>
+                            <li><a href="activities.html#workshop-highlights">Course Highlights</a></li>
+                            <li><a href="activities.html#detcourse">Pottery Introduction Course</a></li>
+                            <li><a href="activities.html#detcourse">Private Pottery session</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/mudberry_studio/?hl=en"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="aboutus.html#wc"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Initialize AOS -->
+        <script>
+            AOS.init();
+        </script>
+    </span>
+
+</body>
+
+</html>

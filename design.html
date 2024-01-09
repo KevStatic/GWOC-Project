@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="icon" href="Final Logo.jpg" type="image/jpg">
+  <title>Design</title>
+  <link rel="stylesheet" href="design.css">
+  <script src="design.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav-section" id="header">
+      <a class="logo-img" href="index.html">
+        <img class="bar-logo" src="logo.png" alt="homepage">
+      </a>
+      <div class="gap-text" style="padding-left: 360px; height: 130px;" id="spacebetween"></div>
+      <nav>
+        <div class="nav-tags">
+          <ul>
+            <li class="nav-item" style="margin-top: 15px;"><a href="index.html"> Home </a></li>
+            <li class="nav-item" style="margin-top: 15px;"><a href="learnpage.html"> Learn </a></li>
+            <li class="nav-item" style="margin-top: 15px;"><a href="design.html"> Design </a></li>
+            <li class="nav-item" style="margin-top: 15px;"><a href="activities.html"> Activities </a></li>
+            <li class="nav-item" style="margin-top: 15px;"><a href="aboutus.html"> About </a></li>
+          </ul>
+          <!-- <div class="nav-item vl"> </div>
+                <a href="#" id="socials" class="fa fa-facebook"></a>
+                <a href="#" id="socials" class="fa fa-instagram"></a>
+                <a href="#" id="socials"class="fa fa-whatsapp"></a> -->
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- /HERO SECTION -->
+  <!-- <section class="hero md:h-screen">
+    <div class="hero-content">
+      <h2>Designs at Mudberry Studio</h2>
+      <h2>Designs at Mudberry Studio</h2>
+    </div>
+  </section> -->
+
+
+  <div class="hero-section overflow-hidden shadow-lg relative w-full md:h-screen text-white mt-40 md:mt-20">
+    <img src="aslihero.jpg" class="w-screen md:h-screen" alt="Pottery Molding">
+    <div class="absolute top-0 left-0 w-screen h-screen bg-black opacity-40"></div>
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+      <div class="hero-content">
+        <h2 class="text-3xl md:text-6xl font-semibold md:mb-4 leading-tight">Designs at Mudberry Studio</h2>
+        <h2 class="text-3xl md:text-6xl font-semibold md:mb-4 leading-tight">Designs at Mudberry Studio</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- intro of gallery -->
+  <h1
+    class="bg-[#372521] text-4xl text-center font-bold text-white relative bg-cover bg-center py-4 bg-opacity-90 px-4 py-2 my-0"
+    data-aos="zoom-in">
+    Explore The Magical Stages Of Pottery
+  </h1>
+
+  <!-- gallery -->
+
+  <section class="grid">
+
+    <div id="textbox" data-aos="fade-up">
+      <p id="text-content">Click a picture to dive right in the journey!
+      </p>
+    </div>
+
+
+    <article class="grid-gallery" data-aos="zoom-in">
+      <img src="lump_clay.png" alt="lump of clay"
+        onclick="updateText('We begin to Choose our canvas – the clay, Feel its texture, envision the possibilities, and let your hands connect with the raw potential.')" />
+      <img src="IMG_4846.jpg" alt="pot on wheel"
+        onclick="updateText('Watch as the clay spins, responding to the touch of skilled hands. Shape emerges from formlessness, giving birth to your envisioned design.')" />
+      <img src="almost_pot.png" alt="almost finished pot"
+        onclick="updateText('With specialized tools, carve and sculpt your creation, adding unique details that make your piece truly one-of-a-kind.')" />
+      <img src="unfinish_pot.png" alt="almost finished pot"
+        onclick="updateText('Watch your imagination slowly come to life')" />
+      <img src="glazed_pot.png" alt="glazed pot"
+        onclick="updateText('Each colour tells a story, enhancing the beauty of your masterpiece.')" />
+      <img src="IMG_4866.jpg" alt="clay bird" onclick="updateText('There is no limitation to your imagination!')" />
+      <img src="IMG_8475.jpg" alt="clay flower pot" onclick="updateText('Beauty can be molded!')" />
+      <img src="IMG_8489.jpg" alt="clay chain" onclick="updateText('Shape and Size cant bound utility!!')" />
+    </article>
+
+  </section>
+
+  <!-- <div class="firefly-container"></div>   -->
+
+
+
+  <!-- quote gallery -->
+  <h1 class="bg-[#372521] text-4xl text-center font-bold text-white relative bg-cover bg-center py-4 bg-opacity-90 px-4"
+    data-aos="zoom-in">
+    Our Art Speaks
+  </h1>
+  <div class="slideshow-container md:h-screen" data-aos="zoom-in">
+    <div class="slideshow md:h-screen md:w-full" data-transition="fade">
+      <input type="radio" name="ss2" id="ss2-item-1" class="slideshow--bullet " checked="checked" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_1.png" />
+        <label for="ss2-item-9" class="slideshow--nav slideshow--nav-previous">Go to slide 9</label>
+        <label for="ss2-item-2" class="slideshow--nav slideshow--nav-next">Go to slide 2</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-2" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_2.png" />
+        <label for="ss2-item-1" class="slideshow--nav slideshow--nav-previous">Go to slide 1</label>
+        <label for="ss2-item-3" class="slideshow--nav slideshow--nav-next">Go to slide 3</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-3" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_3.jpg" />
+        <label for="ss2-item-2" class="slideshow--nav slideshow--nav-previous">Go to slide 2</label>
+        <label for="ss2-item-4" class="slideshow--nav slideshow--nav-next">Go to slide 4</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-4" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_4.png" />
+        <label for="ss2-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss2-item-5" class="slideshow--nav slideshow--nav-next">Go to slide 5</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-5" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_5.png" />
+        <label for="ss2-item-4" class="slideshow--nav slideshow--nav-previous">Go to slide 4</label>
+        <label for="ss2-item-6" class="slideshow--nav slideshow--nav-next">Go to slide 6</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-6" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_6.png" />
+        <label for="ss2-item-5" class="slideshow--nav slideshow--nav-previous">Go to slide 5</label>
+        <label for="ss2-item-7" class="slideshow--nav slideshow--nav-next">Go to slide 7</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-7" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_7.png" />
+        <label for="ss2-item-6" class="slideshow--nav slideshow--nav-previous">Go to slide 6</label>
+        <label for="ss2-item-8" class="slideshow--nav slideshow--nav-next">Go to slide 8</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-8" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_8.png" />
+        <label for="ss2-item-7" class="slideshow--nav slideshow--nav-previous">Go to slide 7</label>
+        <label for="ss2-item-9" class="slideshow--nav slideshow--nav-next">Go to slide 9</label>
+      </div>
+
+      <input type="radio" name="ss2" id="ss2-item-9" class="slideshow--bullet" />
+      <div class="slideshow--item h-full md:h-screen">
+        <img src="q_9.png" />
+        <label for="ss2-item-8" class="slideshow--nav slideshow--nav-previous">Go to slide 8</label>
+        <label for="ss2-item-1" class="slideshow--nav slideshow--nav-next">Go to slide 1</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- faq -->
+  <h1 class="bg-[#372521] text-4xl text-center font-bold text-white relative bg-cover bg-center py-4 bg-opacity-90 px-4"
+    data-aos="zoom-in" id="faq">
+    Frequently Asked Questions
+  </h1>
+  <div class="container">
+    <!-- <h2>Frequently Asked Questions</h2> -->
+    <details data-aos="fade-right">
+      <summary>Why learn pottery?</summary>
+      <div>
+        Learning pottery provides a creative outlet, and offers a <em>therapeutic</em> and <em>meditative</em>
+        experience.
+      </div>
+    </details>
+    <details data-aos="fade-right">
+      <summary>Who is the introductory course suitable for?</summary>
+      <div>
+        The course caters to individuals of all skill levels, making it suitable for those exploring pottery for the
+        first time or seeking to deepen their understanding of clay as a sculptural material.
+      </div>
+    </details>
+    <details data-aos="fade-right">
+      <summary> What opportunities do advanced pottery courses provide?</summary>
+      <div>
+        Advanced courses offer in-depth exploration of various techniques to achieve the desired level of
+        <em>expertise.</em>
+      </div>
+    </details>
+    <details data-aos="fade-right">
+      <summary> How long should one practice before progressing to advanced courses?</summary>
+      <div>
+        Participants are recommended to practice for about <em>six months</em> before considering advanced courses.
+      </div>
+    </details>
+    <details data-aos="fade-right">
+      <summary>What is the structure of a private pottery session?</summary>
+      <div>
+        Private sessions offer a personalized, one-hour clay experience covering hand-built techniques, pinching, and
+        personalization, with all materials provided.
+      </div>
+    </details>
+    <details data-aos="fade-right">
+      <summary>What are the details of private session pricing and availability?</summary>
+      <div>
+        You can check out our <em>Activities</em> page for details
+      </div>
+    </details>
+  </div>
+
+  <div class="overflow-hidden shadow-lg relative w-full md:h-screen text-white">
+    <img src="IMG_4981.jpg" class="w-screen md:h-screen" alt="Pottery Molding">
+    <div class="absolute top-0 left-0 w-screen h-screen bg-black opacity-60"></div>
+    <center>
+      <h1 class="hero-title">
+        <p class="hero-primary hero-color-gradient font-bold">Think, Shape, Craft</p>
+        <p class="hero-sub hero-color-gradient l font-bold">Visit Our Studio, Craft Your Masterpiece.</p>
+      </h1>
+    </center>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="footer">
+
+    <div class="c2">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="design.html">our design</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="design.html#faq">FAQ</a></li>
+            <li><a href="aboutus.html#bs">Book a session</a></li>
+            <li><a href="aboutus.html#bs">Place an Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Courses</h4>
+          <ul>
+            <li><a href="activities.html#workshop-highlights">Course Highlights</a></li>
+            <li><a href="activities.html#detcourse">Pottery Introduction Course</a></li>
+            <li><a href="activities.htmldetcourse">Private Pottery session</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/mudberry_studio/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="#wc"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
