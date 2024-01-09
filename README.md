@@ -57,10 +57,10 @@ We welcome contributions from the open-source community! If you have any ideas, 
 
 Mudberry Studio is brought to you by a passionate team of developers and designers committed to pushing the boundaries of creativity in the digital realm.
 
-# - Keval - Lead Developer
-# - Lamya - UI/UX Designer
-# - Neem - Frontend Developer
-# - Misbah - Frontend Developer
+# - Kevalya Shah
+# - Lamya Gandhi
+# - Misbah Shaikh
+# - Neem Sheth
 
 ## License
 
