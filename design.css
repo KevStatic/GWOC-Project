@@ -230,7 +230,7 @@ header{
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   
-  background-image: url("aslihero.jpg");
+  background-image: url("./assets/photos/aslihero.jpg");
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -421,7 +421,7 @@ header{
   justify-content: center;
   overflow: hidden;
   background-image: linear-gradient(to bottom right, #bd9b77, #b18555);
-  background-image: url("thand.jpg");
+  background-image: url("./assets/photos/thand.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -462,7 +462,7 @@ header{
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url("IMG_4985.jpg");
+  background-image: url("./assets/photos/IMG_4985.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -496,7 +496,7 @@ header{
   position: relative;
   /* background-image: linear-gradient(to bottom right, #bd9b77, #b18555); */
   /* parralax */
-  background-image: url("thand.jpg");
+  background-image: url("./assets/photos/thand.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -581,7 +581,7 @@ header{
   overflow: hidden;
   background-color: rgba(139, 125, 107, 0.45);
   /* parralax */
-  background-image: url("IMG_4985.jpg");
+  background-image: url("./assets/photos/IMG_4985.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -653,7 +653,7 @@ details[open] div {
   /* background-image: linear-gradient(to bottom right, #bd9b77, #b18555); */
 
   /* parralax */
-  background-image: url("thand.jpg");
+  background-image: url("./assets/photos/thand.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
