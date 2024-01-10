@@ -237,7 +237,7 @@ header{
 }
 
 .body-background{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG_4846.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/photos/IMG_4846.jpg');
     margin-top: 75px;
     background-repeat: no-repeat;
     background-size: cover;
