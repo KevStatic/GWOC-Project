@@ -154,7 +154,7 @@ header{
     height: 100vh;
     clip-path: polygon(0 0, 60vw 0, 40vw 100vh, 0 100vh);
     z-index: 1;
-    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(para-img.png);
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./assets/photos/para-img.png);
     filter: blur(4px);
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ header{
     width: 60%;
     background-color: #BD9B77;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url(para-img2.png);
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url(./assets/photos/para-img2.png);
     filter: blur(4px);
     background-size: cover;
     background-repeat: no-repeat;
