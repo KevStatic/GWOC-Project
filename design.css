@@ -133,6 +133,14 @@ header{
   opacity: 0.7;
 }
 
+/* RESPONSIVE */
+
+/*
+---------------------------------------------
+TABLET RESPONSIVE
+---------------------------------------------
+*/
+
 @media (max-width: 768px) {
   /* Styles for screens up to 768px wide */
   .nav-section {
@@ -143,10 +151,6 @@ header{
 
   .gap-text{
       display: none;
-  }
-  .bar-logo{
-    width: auto;
-    height: 100px;
   }
 
   .icons{
@@ -177,7 +181,39 @@ header{
   .icons {
     display: block;
   }
+
+  .split-col img{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 275px;
+      width: 28%;
+  }
+  
+  .main-body{
+      min-height: 90vh;
+  }
+
+  .body-content{
+      display: grid;
+      grid-template-columns: 1fr;
+      display: center;
+  }
+
+  .body-content video{
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
 }
+
+
+/*
+----------------------------------
+RESPONSIVE FOR 320PX, SMALL MOBILE
+----------------------------------
+*/
 
 @media only screen and (max-width: 320px) {
   /* Styles for screens up to 320px wide */
@@ -187,15 +223,22 @@ header{
     background-color: #BD9B77;
   }
 
+  .body-background_{
+      margin-top: 10px;
+  }
+
+  .body-header{
+      padding-top: 20px;
+  }
+
   .gap-text {
     display: none;
   }
 
-  .bar-logo{
-    width: auto;
-    height: 100px;
-  }
-
+  .bar-logo {
+      width: auto;
+      height: 100px;
+    }
 
   .bar-text {
     color: #372521;
@@ -208,7 +251,6 @@ header{
     color: #372521;
     padding: 10px;
     font-size: 12px;
-
   }
 
   .nav-item.vl {
@@ -217,6 +259,178 @@ header{
 
   .icons {
     display: block;
+  }
+
+  .split-col img{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 15px;
+      width: 08%;
+  }
+
+  .main-body{
+      min-height: 90vh;
+  }
+
+  .body-content{
+      grid-template-columns: 3fr;
+  }
+
+  .body-content video{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+/*
+----------------------------------
+RESPONSIVE FOR 375PX, MEDIUM MOBILE
+----------------------------------
+*/
+
+@media only screen and (max-width: 375px) {
+  /* Styles for screens up to 320px wide */
+  .nav-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: #BD9B77;
+  }
+
+  .body-background_{
+      margin-top: 10px;
+  }
+
+  .body-header{
+      padding-top: 20px;
+  }
+
+  .gap-text {
+    display: none;
+  }
+
+  .bar-logo {
+      width: auto;
+      height: 100px;
+    }
+
+  .bar-text {
+    color: #372521;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    color: #372521;
+    padding: 5px;
+    font-size: 8px;
+  }
+
+  .nav-item.vl {
+    display: none;
+  }
+
+  .icons {
+    display: block;
+  }
+
+  .split-col img{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 15px;
+      width: 08%;
+  }
+
+  .main-body{
+      min-height: 90vh;
+  }
+
+  .body-content{
+      grid-template-columns: 3fr;
+  }
+
+  .body-content video{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+/*
+----------------------------------
+RESPONSIVE FOR 425PX, LARGE MOBILE
+----------------------------------
+*/
+
+@media only screen and (max-width: 425px) {
+  /* Styles for screens up to 320px wide */
+  .nav-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: #BD9B77;
+  }
+
+  .body-background_{
+      margin-top: 10px;
+  }
+
+  .body-header{
+      padding-top: 20px;
+  }
+
+  .gap-text {
+    display: none;
+  }
+
+  .bar-logo {
+      width: auto;
+      height: 100px;
+    }
+
+  .bar-text {
+    color: #372521;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    color: #372521;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .nav-item.vl {
+    display: none;
+  }
+
+  .icons {
+    display: block;
+  }
+
+  .split-col img{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 15px;
+      width: 08%;
+  }
+
+  .main-body{
+      min-height: 90vh;
+  }
+
+  .body-content{
+      grid-template-columns: 3fr;
+  }
+
+  .body-content video{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
 
