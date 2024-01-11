@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
       const endTime = performance.now();
       const loadingTime = endTime - startTime;
   
-      const minimumDuration = 2000;
+      const minimumDuration = 5000;
   
-      const animationDuration = Math.max(minimumDuration, loadingTime);
+      const animationDuration = Math.min(minimumDuration, loadingTime);
   
       setTimeout(function () {
         document.getElementById("preloader-container").classList.add("hidden");
