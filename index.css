@@ -107,7 +107,9 @@
     .hero-content h2 {
       font-size: 2.5em;
     }
+    
   }
+  
 *{
     margin: 0;
     padding: 0;
@@ -422,19 +424,19 @@ section{
 }
 
 .pic:nth-child(2){
-    transition-delay: 100ms;
+    transition-delay: 50ms;
 }
 
 .pic:nth-child(3){
-    transition-delay: 200ms;
+    transition-delay: 100ms;
 }
 
 .pic:nth-child(4){
-    transition-delay: 300ms;
+    transition-delay: 150ms;
 }
 
 .pic:nth-child(5){
-    transition-delay: 400ms;
+    transition-delay: 200ms;
 }
 
 .sometry{
