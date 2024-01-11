@@ -1,13 +1,27 @@
+// document.addEventListener("DOMContentLoaded", function () {
+//     const startTime = performance.now();
+  
+//     window.addEventListener("load", function () {
+//       const endTime = performance.now();
+//       const loadingTime = endTime - startTime;
+  
+//       const minimumDuration = 2000;
+  
+//       const animationDuration = Math.max(minimumDuration, loadingTime);
+  
+//       setTimeout(function () {
+//         document.getElementById("preloader-container").classList.add("hidden");
+//         document.getElementById("content").classList.remove("hidden");
+//       }, animationDuration);
+//     });
+//   });
+
 document.addEventListener("DOMContentLoaded", function () {
     const startTime = performance.now();
   
     window.addEventListener("load", function () {
-      const endTime = performance.now();
-      const loadingTime = endTime - startTime;
   
-      const minimumDuration = 5000;
-  
-      const animationDuration = Math.min(minimumDuration, loadingTime);
+      const animationDuration = 5000;
   
       setTimeout(function () {
         document.getElementById("preloader-container").classList.add("hidden");
