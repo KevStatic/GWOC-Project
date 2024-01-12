@@ -15,7 +15,7 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 
 - **Frontend:** Built using modern web technologies such as React.js for a dynamic and responsive user interface.
 - **Backend:** Powered by Node.js and Express to handle server-side logic, API endpoints, and data management.
-- **Database:** MongoDB utilized for storing and managing pottery designs, workshop details, and user information.
+- **Database:** FormSubmit utilized for customer user information and the studio interaction with customer.
 
 ### Pages
 
@@ -27,6 +27,9 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 
 3. **Activities Page**
    - A dynamic React component fetching and displaying workshop details from the backend API, providing users with in-depth information on courses and private sessions.
+     
+4. **Learn Page**
+   - An informative and attractive page for the delivery of the basic idea of the studio.
 
 ### Responsive Design
 
@@ -40,14 +43,14 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 
 To run the Mudberry Studio website locally, follow these steps:
 
-1. Clone the repository.
-2. Install project dependencies using `npm install`.
-3. Configure the environment variables (e.g., MongoDB connection string).
-4. Start the development server using `npm start`.
+1. Go to the deployments.
+2. CLlick on the website.
+
 
 ## Screenshots
 
-[Add screenshots or links to live demos here]
+
+
 
 ## Contributing
 
