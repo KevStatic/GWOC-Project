@@ -18,18 +18,18 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 - **Database:** FormSubmit utilized for customer user information and the studio interaction with customer.
 
 ### Pages
-
-1. **About Us** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/aboutus.html)
-   - A React component rendering the professor's background, education, and expertise, enriched with multimedia content for a compelling user experience.
+1. **Learn Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/learnpage.html)
+   - An informative and attractive page for the delivery of the basic idea of the studio.
 
 2. **Designs Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/design.html)
-   - An immersive gallery powered by a React-based image carousel, allowing users to explore and appreciate the artistic creations in detail.
+   - An immersive gallery allowing users to explore and appreciate the artistic creations in detail.
 
 3. **Activities Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/activities.html)
-   - A dynamic React component fetching and displaying workshop details from the backend API, providing users with in-depth information on courses and private sessions.
-     
-4. **Learn Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/learnpage.html)
-   - An informative and attractive page for the delivery of the basic idea of the studio.
+   - A dynamic page displaying workshop details from the backend API, providing users with in-depth information on courses and private sessions.
+
+4. **About Us** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/aboutus.html)
+   - The page with the professor's background, education, and expertise, enriched with multimedia content for a compelling user experience.     
+
 
 ### Responsive Design
 
@@ -44,7 +44,7 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 To run the Mudberry Studio website locally, follow these steps:
 
 1. Go to the deployments.
-2. CLlick on the website.
+2. Click on the website.
 
 
 ## Screenshots
