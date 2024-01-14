@@ -19,16 +19,16 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 
 ### Pages
 
-1. **About Us**
+1. **About Us** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/aboutus.html)
    - A React component rendering the professor's background, education, and expertise, enriched with multimedia content for a compelling user experience.
 
-2. **Designs Page**
+2. **Designs Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/design.html)
    - An immersive gallery powered by a React-based image carousel, allowing users to explore and appreciate the artistic creations in detail.
 
-3. **Activities Page**
+3. **Activities Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/activities.html)
    - A dynamic React component fetching and displaying workshop details from the backend API, providing users with in-depth information on courses and private sessions.
      
-4. **Learn Page**
+4. **Learn Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/learnpage.html)
    - An informative and attractive page for the delivery of the basic idea of the studio.
 
 ### Responsive Design
