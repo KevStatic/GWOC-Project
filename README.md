@@ -13,7 +13,7 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 
 ### Architecture
 
-- **Frontend:** Built using modern web technologies such as HTML, CSS and JS for a dynamic and responsive user interface.
+- **Frontend:** Built using modern web technologies such as HTML, CSS, Tailwind and JS along for a dynamic and responsive user interface.
 - **Database:** FormSubmit utilized for customer user information and the studio interaction with customer.
 
 ### Pages
