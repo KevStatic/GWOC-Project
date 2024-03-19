@@ -926,7 +926,7 @@ RESPONSIVE FOR 375PX, MEDIUM MOBILE
 
   /*
 ----------------------------------
-RESPONSIVE FOR 320px, LARGE MOBILE
+RESPONSIVE FOR 320px, SMALL MOBILE
 ----------------------------------
 */
 
@@ -966,6 +966,245 @@ RESPONSIVE FOR 320px, LARGE MOBILE
     color: #372521;
     padding: 10px;
     font-size: 12px;
+  }
+
+  .nav-item.vl {
+    display: none;
+  }
+
+  .icons {
+    display: block;
+  }
+
+  .split-grid-two {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+  }
+
+  .split-grid-two-col {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    min-height: auto;
+    margin-top: 10px;
+  }
+
+  .body-content-video1 video {
+      text-align: center;
+      align-items: center;
+      margin-left: auto;
+      height: auto;
+  }
+
+  .giffy-style {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .gallery-show {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10%;
+  }
+
+  .pic {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-bottom: 60px;
+  }
+
+  .body-content h1 {
+    font-size: 2em;
+  }
+
+  .body-content p {
+    margin-right: 0;
+  }
+
+  .split-grid-two-s3 {
+    grid-template-columns: 1fr; /* Change to a single column layout */;
+  }
+
+  .image-tag01 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .button-main{
+    top: 0;
+  }
+
+  .img-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+
+  /*
+----------------------------------
+RESPONSIVE FOR 370px, SMALL MOBILE
+----------------------------------
+*/
+
+@media only screen and (max-width: 370px) {
+  /* Styles for screens up to 320px wide */
+  .nav-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: #BD9B77;
+  }
+
+  .body-background_{
+      margin-top: 10px;
+  }
+
+  .body-header{
+      padding-top: 20px;
+  }
+
+  .bar-logo{
+    width: auto;
+    height: 100px;
+  }
+
+  .gap-text {
+    display: none;
+  }
+
+  .bar-text {
+    color: #372521;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    color: #372521;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .nav-item.vl {
+    display: none;
+  }
+
+  .icons {
+    display: block;
+  }
+
+  .split-grid-two {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+  }
+
+  .split-grid-two-col {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    min-height: auto;
+    margin-top: 10px;
+  }
+
+  .body-content-video1 video {
+      text-align: center;
+      align-items: center;
+      margin-left: auto;
+      height: auto;
+  }
+
+  .giffy-style {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .gallery-show {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10%;
+  }
+
+  .pic {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-bottom: 60px;
+  }
+
+  .body-content h1 {
+    font-size: 2em;
+  }
+
+  .body-content p {
+    margin-right: 0;
+  }
+
+  .split-grid-two-s3 {
+    grid-template-columns: 1fr; /* Change to a single column layout */;
+  }
+
+  .image-tag01 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .button-main{
+    top: 0;
+  }
+
+  .img-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+  /*
+----------------------------------
+RESPONSIVE FOR 280px
+----------------------------------
+*/
+
+@media only screen and (max-width: 280px) {
+  /* Styles for screens up to 320px wide */
+  .nav-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: #BD9B77;
+  }
+
+  .body-background_{
+      margin-top: 10px;
+  }
+
+  .body-header{
+      padding-top: 20px;
+  }
+
+  .bar-logo{
+    width: auto;
+    height: 100px;
+  }
+
+  .gap-text {
+    display: none;
+  }
+
+  .bar-text {
+    color: #372521;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    color: #372521;
+    padding: 8px;
+    font-size: 8px;
   }
 
   .nav-item.vl {
