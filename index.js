@@ -37,10 +37,13 @@
 //   }, 5000);
 // });
 
-setTimeout(function () {
-  document.getElementById("preloader-container").classList.add("hidden");
-  document.getElementById("content").classList.remove("hidden");
-}, 5000);
+// setTimeout(function () {
+//   document.getElementById("preloader-container").classList.add("hidden");
+//   document.getElementById("content").classList.remove("hidden");
+// }, 5000);
+
+document.getElementById("preloader-container").classList.add("hidden");
+document.getElementById("content").classList.remove("hidden");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
