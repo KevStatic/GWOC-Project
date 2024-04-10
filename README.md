@@ -48,8 +48,22 @@ To run the Mudberry Studio website locally, follow these steps:
 
 ## Screenshots
 
+1. **Learn Page**
+   ![Screenshot 2024-04-10 225937](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/0b808a41-8c13-4649-9165-876d469416bc)
 
 
+3. **Designs Page**
+   ![Screenshot 2024-04-10 230003](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/90f1653a-0c96-4316-8c4d-05027b072ae6)
+   
+
+5. **Activities Page**
+   ![Screenshot 2024-04-10 230042](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/c6b44d40-bb6e-4943-b707-da2518771d98)
+   
+
+7. **About Us**  
+   ![Screenshot 2024-04-10 230632](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/9192e06a-c9f0-4b93-86a3-be081de1e0a3)
+
+   
 
 ## Contributing
 
