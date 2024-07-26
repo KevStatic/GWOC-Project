@@ -17,16 +17,19 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 - **Database:** FormSubmit utilized for customer user information and the studio interaction with customer.
 
 ### Pages
-1. **Learn Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/learnpage.html)
+1. **Home Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/index.html)
+   - An introductory with asthetic vibe to introduce the audience with the Mudberry Studio.
+     
+2. **Learn Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/learnpage.html)
    - An informative and attractive page for the delivery of the basic idea of the studio.
 
-2. **Designs Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/design.html)
+3. **Designs Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/design.html)
    - An immersive gallery allowing users to explore and appreciate the artistic creations in detail.
 
-3. **Activities Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/activities.html)
+4. **Activities Page** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/activities.html)
    - A dynamic page displaying workshop details from the backend API, providing users with in-depth information on courses and private sessions.
 
-4. **About Us** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/aboutus.html)
+5. **About Us** (https://neem-sheth.github.io/Mudberry-Studio---Script-Sprinters/aboutus.html)
    - The page with the professor's background, education, and expertise, enriched with multimedia content for a compelling user experience.     
 
 
@@ -36,19 +39,21 @@ Design an interactive website for Mudberry Studio, spotlighting the studio's art
 
 ### Deployment
 
-- Continuous integration and deployment pipelines set up using tools like GitHub Actions or Jenkins for automating the testing and deployment process.
+- Continuous integration and deployment pipelines set up using tools like GitHub Actions for automating the testing and deployment process.
 
 ## Getting Started
 
-To run the Mudberry Studio website locally, follow these steps:
+To run the Mudberry Studio website, follow these steps:
 
 1. Go to the deployments.
 2. Click on the website.
 
 
 ## Screenshots
+1. **Home Page**
+   ![image](https://github.com/user-attachments/assets/044a1179-d73e-4b4c-a93f-a92b92af7679)
 
-1. **Learn Page**
+2. **Learn Page**
    ![Screenshot 2024-04-10 225937](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/0b808a41-8c13-4649-9165-876d469416bc)
 
 
@@ -56,11 +61,11 @@ To run the Mudberry Studio website locally, follow these steps:
    ![Screenshot 2024-04-10 230003](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/90f1653a-0c96-4316-8c4d-05027b072ae6)
    
 
-5. **Activities Page**
+4. **Activities Page**
    ![Screenshot 2024-04-10 230042](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/c6b44d40-bb6e-4943-b707-da2518771d98)
    
 
-7. **About Us**  
+5. **About Us**  
    ![Screenshot 2024-04-10 230632](https://github.com/Neem-Sheth/Mudberry-Studio---Script-Sprinters/assets/73958669/9192e06a-c9f0-4b93-86a3-be081de1e0a3)
 
    
@@ -77,7 +82,3 @@ Mudberry Studio is brought to you by a passionate team of developers and designe
 # - Lamya Gandhi
 # - Misbah Shaikh
 # - Neem Sheth
-
-## License
-
-This project is licensed under the NMKL - see the file for details.
